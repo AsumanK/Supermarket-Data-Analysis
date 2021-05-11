@@ -8,16 +8,7 @@ Contents
 5. Exploratory data analysis (EDA)
 -	Univariate analysis
 -	Bivariate analysis
-6. Missing value and outlier treatment
-Evaluation metrics for classification problems
-Model building: Part I
-Logistic regression using stratified k-folds cross validation
-Feature engineering 
-Model building: Part II
--	Logistic regression
--	Decision tree
--	Random forest 
--	XGBoost
+
 
 
 Problem statement
