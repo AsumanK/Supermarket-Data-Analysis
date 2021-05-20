@@ -1,13 +1,11 @@
 # Supermarket-Data-Analysis
 
-Contents
-1. Problem statement 
-2. Hypothesis generation
+# Contents
+1. Problem statement
+2. Questions to answer
 3. Getting the system ready and loading the data
-4. Understanding the data
-5. Exploratory data analysis (EDA)
--	Univariate analysis
--	Bivariate analysis
+4. Exploratory data analysis (EDA) using Pandas Profiling
+5. Answers to questions
 
 
 
@@ -52,25 +50,19 @@ Gross income: Gross income
 Rating: Customer stratification rating on their overall shopping experience (On a scale of 1 to 10)
 
 
-1. What gender had most sales?
-2. What was the average income in both genders?
-3. What customer type had most sales?
-4. Which product line had most sales?
-5. Which city experienced most sales?
-6. What was the most popular payment method?
-7. Which branch had most sales?
-8. What is the distribution of gross income?
-9. What does the customer rating look like?
-10. What was the total aggregate sales in each branch?
-11. What was the total aggregate sales in each city?
-12. What was the average rating in each branch?
-13. What was the number of sales in each product line?
-14. What was the total income and count in each product line among males and females?
-15. Which month generated the most income?
-16. What day of the week generated the highest income?
-17. What time of the day was the busiest?
-18. Which product line had the highest quantity of sales?
-19. What was the average unit price in each product line?
+# 2. Questions
+The sales volume by different payments methods
+The best-selling product lines
+What is the prefered payment type of each branch
+In relation to questions 1 and 2, according to the product line, does any payment method stand out?
+Type of customer according to gender and city
+What's the best time to offer online discounts
+Type of Customer by Gender
+Type of Customer by City
+What's the best time to offer online discounts
+What day of the week saw most sales?
+What month generated the most income?
+What was the average rating in each branch?
 
 
 Getting the system ready and loading the data
@@ -79,6 +71,7 @@ We will be using python for this project along with the below listed libraries.
 -Python
 -Pandas
 - Numpy
+- pandas profiling
 -Plotly
 
 Data 
